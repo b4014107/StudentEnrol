@@ -28,6 +28,16 @@ class BootStrap {
 
 ).save()
 
+	def bobbarkins = new Lecturer(
+	fullName:'Bob',
+	post:'jyggy',
+	subject:'jygyg',
+	lecturerEmail:'jygyg@gmail.com',
+	office:'kuhiuh',
+	bio:'lkuhiuhiughiyguyg',
+
+
+	).save()
     }
     def destroy = {
     }
